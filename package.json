@@ -1,6 +1,6 @@
 {
-  "name": "@tecocraft/rn-deeplinking",
-  "version": "3.0.0",
+  "name": "@linkhas/rn-deeplinking",
+  "version": "1.0.1",
   "description": "Manage deep links (Android app links + iOS universal links) in React Native projects with a simple API.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -21,14 +21,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chiragjanjmeratecocraft/RN-Dynamic-Link-SDK.git"
+    "url": "https://github.com/linkhas/RN-Dynamic-Link-SDK.git"
   },
-  "author": "tecocraft <nayan.wadekar@tecocraft.com> (https://github.com/nayantecocraft)",
+  "author": "linkhas <developer@linkhas.com> (https://github.com/linkhas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chiragjanjmeratecocraft/RN-Dynamic-Link-SDK/issues"
+    "url": "https://github.com/linkhas/RN-Dynamic-Link-SDK/issues"
   },
-  "homepage": "https://github.com/chiragjanjmeratecocraft/RN-Dynamic-Link-SDK#readme",
+  "homepage": "https://github.com/linkhas/RN-Dynamic-Link-SDK#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -53,7 +53,7 @@
     "prettier": "^3.0.3",
     "react": "19.1.1",
     "react-native": "0.81.4",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "react": "*",

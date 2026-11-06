@@ -1,4 +1,4 @@
-# @tecocraft/rn-deeplinking
+# @linkhas/rn-deeplinking
 
 A lightweight React Native library for handling **Deep Links** and **Universal Links**.  
 ⚡ No native code required — built with pure TypeScript.
@@ -18,13 +18,13 @@ A lightweight React Native library for handling **Deep Links** and **Universal L
 
 ```sh
 # with npm
-npm install @tecocraft/rn-deeplinking
+npm install @linkhas/rn-deeplinking
 
 # with yarn
-yarn add @tecocraft/rn-deeplinking
+yarn add @linkhas/rn-deeplinking
 
 # with pnpm
-pnpm add @tecocraft/rn-deeplinking
+pnpm add @linkhas/rn-deeplinking
 ```
 
 ---
@@ -59,7 +59,7 @@ pnpm add @tecocraft/rn-deeplinking
 2) Use the hook
 
 ```tsx
-import { useSmartLinking } from '@tecocraft/rn-deeplinking';
+import { useSmartLinking } from '@linkhas/rn-deeplinking';
 
 export default function App() {
   useSmartLinking({
@@ -90,7 +90,7 @@ For HTTPS App/Universal Links, see the full Setup below and host the files from 
 ```tsx
 import React from 'react';
 import { View, Text } from 'react-native';
-import { useSmartLinking } from '@tecocraft/rn-deeplinking';
+import { useSmartLinking } from '@linkhas/rn-deeplinking';
 
 export default function App() {
   useSmartLinking({
@@ -126,7 +126,7 @@ export default function App() {
 For a minimal, event-based API similar to React Native's `Linking`, use the `Deeplink` wrapper:
 
 ```tsx
-import { Deeplink } from '@tecocraft/rn-deeplinking';
+import { Deeplink } from '@linkhas/rn-deeplinking';
 import { useEffect } from 'react';
 import { View, Text } from 'react-native';
 
@@ -366,7 +366,7 @@ For App Links/Universal Links with Expo, also configure:
 import React, { useMemo } from 'react';
 import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { useSmartLinking } from '@tecocraft/rn-deeplinking';
+import { useSmartLinking } from '@linkhas/rn-deeplinking';
 
 const Stack = createNativeStackNavigator();
 
@@ -466,14 +466,14 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 📄 License
 
-MIT © [Tecocraft](https://github.com/tecocraft)
+MIT © [linkhas](https://github.com/linkhas)
 
 ---
 
 ## 🛠️ Troubleshooting
 
-- **TS2307 Cannot find module '@tecocraft/rn-deeplinking'**
-  - Ensure the package version is installed and `node_modules/@tecocraft/rn-deeplinking/lib/index.d.ts` exists.
+- **TS2307 Cannot find module '@linkhas/rn-deeplinking'**
+  - Ensure the package version is installed and `node_modules/@linkhas/rn-deeplinking/lib/index.d.ts` exists.
   - If using a local path, run `yarn build` inside the library so `lib/` is generated.
   - Restart your TS server/IDE and Metro: `yarn start --reset-cache`.
 
